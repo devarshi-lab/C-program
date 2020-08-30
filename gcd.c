@@ -3,14 +3,6 @@
 int Gcd(int iValue1,int iValue2)
 {
 	int i = 0,iGcd = 0;
-	if(iValue1<iValue2)
-	{
-		i = iValue1;
-	}
-	else
-	{
-		i = iValue2;
-	}
 	
 	for(i = 1;i<=iValue1;i++)
 	{
