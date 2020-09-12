@@ -21,7 +21,7 @@ void InsertFirst(PPNODE Head,PPNODE Tail,int iValue)
 	newn->data=iValue;
 	newn->next=NULL;
 
-	if(*Head == NULL)
+	if(*Head == NULL  && *Tail == NULL)
 	{
 		*Head = newn;
 		*Tail = newn;
@@ -43,7 +43,7 @@ void InsertLast(PPNODE Head,PPNODE Tail,int iValue)
 	newn->data=iValue;
 	newn->next=NULL;
 
-	if(*Head == NULL)
+	if(*Head == NULL  && *Tail == NULL)
 	{
 		*Head = newn;
 		*Tail = newn;
