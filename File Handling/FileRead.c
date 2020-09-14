@@ -18,6 +18,7 @@ int main()
 
 	while((ret = read(File,buffer,sizeof(buffer))) != 0)
 	{
+		buffer[ret]='\0';
 		printf("%s",buffer);
 
 	}
